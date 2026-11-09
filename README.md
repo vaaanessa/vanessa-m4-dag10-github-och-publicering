@@ -1,6 +1,6 @@
 # Dag 10 · GitHub och publicering
 
-*Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs*
+_Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs_
 
 ## Vad du ska göra idag
 
@@ -8,12 +8,12 @@ Du skickar upp ditt arbete med `git push` och publicerar sidan på riktigt med G
 
 ## Bakgrund
 
-Hittills har dina commits bara funnits på din dator. Ett *remote* repo på GitHub är både en säkerhetskopia och ett sätt att dela. **GitHub Pages** gör att GitHub visar dina HTML-filer som en riktig webbplats på `https://ditt-namn.github.io/repo/`.
+Hittills har dina commits bara funnits på din dator. Ett _remote_ repo på GitHub är både en säkerhetskopia och ett sätt att dela. **GitHub Pages** gör att GitHub visar dina HTML-filer som en riktig webbplats på `https://ditt-namn.github.io/repo/`.
 
 ## Så arbetar du (samma som alltid)
 
-1. **Forka** dagens repo på GitHub (*Fork → Create fork*).
-2. **Klona din fork:** *Code → HTTPS → kopiera adressen*. I terminalen (Ctrl+ö i VS Code): `git clone <adressen>`. Öppna den nya mappen i VS Code och starta *Live Server*.
+1. **Forka** dagens repo på GitHub (_Fork → Create fork_).
+2. **Klona din fork:** _Code → HTTPS → kopiera adressen_. I terminalen (Ctrl+ö i VS Code): `git clone <adressen>`. Öppna den nya mappen i VS Code och starta _Live Server_.
 3. **Gör uppgiften.** Spara och kontrollera i webbläsaren efter varje steg. Gör en commit efter varje avslutat steg: `git add .` och `git commit -m "Beskriv vad du gjorde"`.
 4. **Skicka upp** när du är klar: `git push`.
 5. **Lämna in i Microsoft Forms.**
@@ -28,7 +28,7 @@ I terminalen: `git remote -v`. Du ska se `origin` med adressen till din fork på
 
 ### Steg 2. Kontrollera historiken på GitHub
 
-Öppna din fork på GitHub och klicka *Commits*. Dina commits sedan dag 1 ska synas. Det är samma `git push` som du kört hela tiden. Första gången kan GitHub ha bett dig logga in, och det behövs normalt inte igen.
+Öppna din fork på GitHub och klicka _Commits_. Dina commits sedan dag 1 ska synas. Det är samma `git push` som du kört hela tiden. Första gången kan GitHub ha bett dig logga in, och det behövs normalt inte igen.
 
 ### Steg 3. Gör en commit och push i ett svep
 
@@ -36,7 +36,7 @@ I terminalen: `git remote -v`. Du ska se `origin` med adressen till din fork på
 
 ### Steg 4. Slå på GitHub Pages
 
-På GitHub, i din fork: *Settings → Pages*. Under *Build and deployment*: Source = *Deploy from a branch*, Branch = `main`, mapp `/ (root)`. Spara. Vänta 1–2 minuter.
+På GitHub, i din fork: _Settings → Pages_. Under _Build and deployment_: Source = _Deploy from a branch_, Branch = `main`, mapp `/ (root)`. Spara. Vänta 1–2 minuter.
 
 ### Steg 5. Öppna din sida
 
@@ -74,3 +74,18 @@ I formuläret fyller du i:
 
 - Lägg till en `.gitignore`.
 - Lägg till en skärmbild av sidan i README.md.
+
+# Kafé Kardemumma
+
+En responsiv webbplats för ett kafé med meny, information och ett formulär för att boka bord.
+
+## Live-sida
+
+[Besök Kafé Kardemumma](https://vaaanessa.github.io/vanessa-m4-dag10-github-och-publicering/)
+
+## Tekniker
+
+- HTML
+- CSS
+- Git och GitHub
+- GitHub Pages
